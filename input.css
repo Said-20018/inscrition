@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #494949;
+}
+
+/*---------------------head-----------------------------*/
+
+
+header{
+    
+}
+
+.head{
+    background-color: #494949;
+    height: 80px;
+    width: 100%;
+    color: white;
+    padding-top: 20px;
+    font-family:  sans-serif, cursive,Arial,Aldhabi, calibri;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 2px solid darkorange; 
+}
+.head > h1{
+    float: left;
+    padding-left: 70px;
+    color: white;
+}
+
+
+/*--------------liste------------------------*/
+
+
+
+.liste{
+    float: right;
+    padding-right: 70px;
+    list-style: none;
+    padding-top: 10px;
+}
+.liste li{
+    display: inline-block;  
+}
+.liste li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.liste li a:hover{
+    background-color: darkorange;
+    border: solid 1px white;
+}
+
+
+.sing:on-clik{
+    color: aqua;
+}
+
+
+.home1 a{
+    background-color: darkorange;
+    border: solid 1px white;
+}
+
+.search{
+    Transform:translate(4px,4px);
+    border: none;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    font-size: 1.5em;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+
+.search:hover{
+    background-color: cornsilk;
+    width: 320px;
+    
+}
+
+.search2{
+    Transform:translate(0px,4px);
+    border: none;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: brown;
+    font-size: 1.5em;
+}
+
+.search2:hover{
+    background-color: deeppink;
+}
+
+
+/*-----------------content-------------*/
+
+.home{
+    border: 0;
+    height: 500px;
+    padding-left: 130px;
+    padding-right: 80px;
+    color: white;
+    font-family: sans-serif, cursive, andalus;
+}
+
+.oll{
+    padding-top: 120px;
+    min-height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/guitar-756326_1920.jpg);
+    width: 80%;
+    margin: auto;
+}
+
+
+.title{
+    padding: 10px;
+    font-family: Arial,Aldhabi, calibri;
+    text-align: center;
+    margin-top: 160px;
+    font-size: 40px;
+    border: 1px solid black;
+    background-color: #494949;
+    color: snow;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.title:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+.whrit{
+    font-size: 20px;
+}
+.inp{
+    height: 40px;
+    width: 800px;
+    padding-left: 30px;
+    font-size: 20px;
+    background-color: azure;
+}
+
+.inp:hover{
+    background-color: cornsilk;
+}
+
+
+.arab{
+    font-size: 20px;
+    padding-bottom: -20px;
+    padding-top: 10px;
+    float: right;
+    margin-right: 120px;
+    text-shadow: 10px;
+}
+
+.inpsubmit{
+    height: 45px;
+    width: 800px;
+    border: none;
+    background-color: darkgray;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.inpsubmit:hover{
+    background-color: crimson;
+    font-size: 35px;
+    color: black;
+}
+
+
+.footer{
+    height: 100px;
+    background-color: #494949;
+    
+}
+
+.footer p{
+    font-family: serif;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
